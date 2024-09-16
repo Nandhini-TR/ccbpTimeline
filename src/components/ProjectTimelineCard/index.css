@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.course-container {
+  border: 0px none;
+  width: 30vw;
+}
+
+.project-image {
+  height: 250px;
+  width: 250px;
+}
+
+.course-heading-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.course-title {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.duration-container {
+  display: flex;
+}
+
+.clock-logo {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-right: 5px;
+}
+
+.duration {
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #1e293b;
+}
+
+.visit-link {
+  color: #0967d2;
+  font-weight: bold;
+  text-decoration: none;
+}

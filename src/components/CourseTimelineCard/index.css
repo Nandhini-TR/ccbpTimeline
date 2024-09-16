@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.course-container {
+  border: 0px none;
+  width: 300px;
+}
+
+.course-heading-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.course-title {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.duration-container {
+  display: flex;
+}
+
+.clock-logo {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-right: 5px;
+}
+
+.duration {
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #1e293b;
+}
+
+.course-ul-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.course-list {
+  background-color: lightgray;
+  padding: 5px;
+  margin: 10px;
+  height: 30px;
+  text-align: center;
+}
